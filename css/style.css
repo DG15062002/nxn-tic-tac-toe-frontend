@@ -1,0 +1,21 @@
+.board {
+  display: grid;
+  gap: 8px;
+  margin-top: 20px;
+  justify-content: center;
+}
+
+.cell {
+  width: 64px;
+  height: 64px;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+@media (max-width: 576px) {
+  .cell {
+    width: 48px;
+    height: 48px;
+    font-size: 1.2rem;
+  }
+}
